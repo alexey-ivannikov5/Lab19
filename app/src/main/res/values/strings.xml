@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lab19</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_explanation">Для отображения списка контактов приложению требуется разрешение на доступ к контактам, иначе приложение не будет работать должным образом.\n\nЕсли Вы хотите дать прогламме еще один шанс, выдайте соответсвующее разрешение в настройках</string>
+    <string name="btn_open_settings">Открыть системные настройки</string>
+    <string name="btn_back">Вернуться назад</string>
 </resources>
