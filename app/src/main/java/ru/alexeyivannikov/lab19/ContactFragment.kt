@@ -28,7 +28,6 @@ class ContactFragment : Fragment() {
         ActivityResultContracts.RequestPermission()
     ) { isGranted ->
         if (isGranted) {
-            Log.d("LOGIC_TEST", "is granted")
             loadContacts()
         } else {
             navigateToExplanation()
@@ -77,7 +76,7 @@ class ContactFragment : Fragment() {
 
 
     @SuppressLint("Range")
-    fun loadContacts(){
+    fun loadContacts() {
         val result = mutableListOf<String>()
         val cur = requireActivity().contentResolver.query(
             ContactsContract.Contacts.CONTENT_URI,

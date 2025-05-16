@@ -14,7 +14,7 @@ class ContactAdapter() : RecyclerView.Adapter<ContactAdapter.ContactViewHolder>(
         notifyDataSetChanged()
     }
 
-    class ContactViewHolder(val binding: ContactItemBinding): ViewHolder(binding.root)
+    class ContactViewHolder(val binding: ContactItemBinding) : ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {
         val binding = ContactItemBinding.inflate(
